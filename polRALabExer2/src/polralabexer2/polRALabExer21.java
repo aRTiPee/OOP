@@ -1,4 +1,4 @@
-/*
++/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -102,7 +102,7 @@ public class polRALabExer21 {
     public static void computeArray(int x, int y, int z) {
         if (x + y + z != 15) {
             int q = JOptionPane.showConfirmDialog(null, "Wrong Input! " + x + 
-                    ", " + y + "and " + z + " doesn't equal to '15'!"
+                    ", " + y + " and " + z + " doesn't equal to '15'! "
                     + "Try Again?", "ERROR!", 
                             JOptionPane.YES_NO_OPTION);
                     if (q == JOptionPane.YES_OPTION);
